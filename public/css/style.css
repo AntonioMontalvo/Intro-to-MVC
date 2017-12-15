@@ -1,0 +1,128 @@
+body {
+    font-family: 'Maitree', serif;
+    background-color: dodgerblue;
+}
+
+.title {
+    text-align: center;
+}
+
+a,
+b {
+    color: aliceblue;
+    font-weight: bold;
+}
+
+p {
+    font-size: xx-large;
+    color: aliceblue;
+}
+
+img {
+    width: 60px;
+}
+
+
+.container {
+    margin-bottom: 15px;
+}
+
+.separation {
+    height: 20px;
+}
+
+
+
+@media screen and (max-width: 4080px) {
+    h5 {
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+
+    #diagram {
+        width: 60em;
+        margin-top: 2em;
+    }
+
+    #orm {
+        width: 1000px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .display-3 {
+        font-size: 3em;
+        margin-top: 0.4em;
+        margin-bottom: 1em;
+    }
+
+    .justify-content-end {
+        justify-content: center;
+    }
+
+    h1 {
+        font-size: xx-large;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    h5 {
+        margin-top: 10px;
+        margin-left: 30px
+    }
+
+    p {
+        font-size: x-large;
+    }
+
+    #diagram {
+        width: 33em;
+        margin-top: 2em;
+    }
+    #orm {
+        width: 500px;
+    }
+}
+
+
+}
+
+@media screen and (max-width: 425px) {
+
+    .display-3 {
+        font-size: 2.2em;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    h5 {
+        font-size: 1em;
+    }
+
+    p {
+        font-size: large;
+    }
+    #orm {
+        width: 200px;
+    }
+
+    img {
+        margin: 0 10em;
+        width: 80px;
+    }
+
+    #diagram {
+        margin-left: 10px;
+        width: 22em;
+        margin-top: 2em;
+    }
+
+    
+}
+
+}
